@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Change log Dec 04, 2022"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This log is the first log about the basic information for the fundamental simulator . The second is left for future work.'
+date: 2022-12-05
+venue: 'Fundamental log'
+paperurl: 'log1205.pdf'
+citation: 'change log dec 05, 2022'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+This log is the first log about the basic information for the fundamental simulator . The second is left for future work.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Unmanned aerial vehicle (UAV) navigation is gaining more and more interest in both research and business. Real UAV experiments could be expensive and time-consuming. As an alternative, the validation and testing of UAV navigational algorithms using simulation is essential in the early phases of development when it is difficult to get high-precision and high-fidelity experiment data. In this proposal, we provide a framework for a visual navigational validation environment for unmanned aerial vehicles based on ROS2, PX4, and Gazebo. When implemented, the suggested simulator can provide non- expert end-users with a modular simulation environment that is faster and more reliable for verifying and advancing proposed UAV navigation solutions, such as visual SLAM (Simultaneous Localization and Mapping) algorithms.
