@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Fundamental Simulator"
 permalink: /publications/
 author_profile: true
 ---
