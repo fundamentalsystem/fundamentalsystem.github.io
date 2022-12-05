@@ -6,17 +6,17 @@ main:
   - title: "Getting Started"
     url: /talks/    
 
-  - title: "Secondary Development"
+  - title: "Development"
     url: /teaching/    
     
   - title: "Documentation"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "User Guide"
     url: /year-archive/
     
-  - title: "Contact Us"
+  - title: "Contact"
     url: /cv/
     
-  - title: "Guide"
+  - title: "News of UAS"
     url: /markdown/
