@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Fundamental Simulator"
-permalink: /publications/
+permalink: /fundamental_simulator/
 author_profile: true
 ---
 
