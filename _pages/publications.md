@@ -15,7 +15,7 @@ As illustrated in the graph above, we design an architecture for the simulation 
 
 the simulator runs on ROS2, these modules communicate and coordinate with one another via ROS2 topics. The communication between ROS2 and PX4 will also include PX4-supplied methods. In the early stages of SITL, the perception and planning modules, along with other components, run on the host. The user can begin by using QgroundControl to schedule flights and monitor drone status. The simulator will then instruct the sensors plugin in Gazebo to retrieve data from the environment and send it for navigation tasks such as perception and mapping. The situation in HITL would become more complicated with the introduction of environmental factors such as drone communications, weather, and human interruptions. In HITL mode, the navigation modules run on the UAV's onboard computer, and the Gazebo serves as an intermediary between the PX4 controller and the navigational modules.
 
-The development of the Fundamental Simulator will follow the procedure of Model-driven Architecture (MDA). 
+**The development of the Fundamental Simulator will follow the paradigm of Model-driven Architecture (MDA).** 
 
 Model-driven Architecture (MDA) is a software development approach that focuses on using models to represent and manipulate the elements of a software system. In the context of robotics, MDA can be used to develop and maintain large-scale robotic software systems, such as those used in autonomous vehicles, drones, and other robotics applications.
 
@@ -87,6 +87,10 @@ Testing and validation is a critical step in the development process for a robot
 3. Create test data and test scenarios that will be used to evaluate the robotics software system. This may involve simulating the robot's environment and tasks, as well as using real-world data from sensors and actuators.
 4. Run the tests and evaluate the results to determine whether the robotics software system meets the requirements and functions as expected. This may involve using a range of tools and techniques, such as automated test runners, debuggers, and performance profilers, to identify and diagnose any issues with the software system.
 5. Address any issues or defects that are discovered during testing, and retest the software system to ensure that it meets the requirements and functions as expected. This may involve modifying the code or the test data, as well as working with stakeholders and other members of the development team to resolve any problems or challenges that are encountered.
+
+At last, after the intensive tests, we will finally deploy the fundamental simulator to validate its availability and compatibility in hardware environments. In addition, providing ongoing maintenance and support is an important part of the development process and can help to ensure that the software system is reliable, effective, and easy to use. It can also help to build trust and confidence among users, and support the long-term success of the robotics software system.
+
+
 
 
 
