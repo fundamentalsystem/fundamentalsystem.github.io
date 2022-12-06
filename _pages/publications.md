@@ -74,13 +74,13 @@ After the data model(including PIM and PSM) are well-structures, we will :
 
 Then for custom codes, we can:
 
-1. dentify the specific functionality or features that need to be implemented. This may include the core algorithms and control logic for the robotics software system, as well as user interfaces and other user-facing features.
+1. Identify the specific functionality or features that need to be implemented. This may include the core algorithms and control logic for the robotics software system, as well as user interfaces and other user-facing features.
 2. Choose a programming language and development environment that are suitable for implementing the custom code. This may involve considering factors such as the performance and scalability requirements of the software system, the availability of libraries and frameworks that support the chosen language, and the preferences and expertise of the development team.
 3. Write the custom code to implement the desired functionality or features. This may involve creating new classes and methods, as well as modifying or extending the generated code to integrate the custom code with the rest of the software system.
-4. Test and debug the custom code to ensure that it functions as expected. This may involve running the software system in a simulation or on a physical robot, and using tools such as debuggers and profilers to identify and fix any issues with the code.
+4. Test and debug the custom code to ensure that it functions as expected. This may involve running the software system in a simulation or on a physical robot and using tools such as debuggers and profilers to identify and fix any issues with the code.
 5. Integrate the custom code with the rest of the robotics software system. This may involve importing the custom code into the development environment, linking it with the generated code and any other custom code that has been written, and testing and debugging the resulting software system.
 
-Testing and validation is a critical step in the development process for a robotics software system, and can help to ensure that the software system is robust, reliable, and capable of meeting the requirements of the robot and its operating environment. To fully test the simulator, we can:
+Testing and validation is a critical step in the development process for a robotics software system and can help to ensure that the software system is robust, reliable, and capable of meeting the requirements of the robot and its operating environment. To fully test the simulator, we can:
 
 1. Identify the specific requirements and functionality that the robotics software system needs to meet. This may include the tasks that the robot is expected to perform, the operating environment in which it will be deployed, and any performance or reliability requirements that the software system needs to satisfy.
 2. Develop a comprehensive testing plan that covers all of the requirements and functionality of the robotics software system. This plan may include a range of different test cases, including unit tests that focus on specific components or features of the software system, and integration tests that evaluate the overall performance and functionality of the system.
