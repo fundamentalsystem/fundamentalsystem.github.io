@@ -12,11 +12,11 @@ redirect_from:
 
 This is the home page of the Fundamental System.
 
-Integration of autonomous UAV software and the development of a low-cost SLAM algorithm will be our future work directions.
+Fundamental System is a system dedicated to the 
 
-The SLAM module plays a role in perceiving and analyzing environment information gathered by navigation sensors. In a GPS-deny environment, Unmanned vehicles depend on the SLAM algorithm to get accurate localization information. SLAM algorithms can be divided into lidar SLAM and visual SLAM. The visual SLAM algorithm is low-cost and lightweight, which benefits from camera sensors. However, visual SLAM suffers mostly from illumination variation and motion distortion. The lidar SLAM methods, by contrast, have a stable performance in a challenging environment. This is one important reason why engineers prefer lidar SLAM whether in autonomous driving or service robots.
+The logo stands for the integration of various components into the system to finally solve the puzzle.
 
-The draft architecture is shown as follows:
+The system contains different modules. Taking the fundamental simulator as an example The draft architecture is shown as follows:
 
 ![uas](../images/arch.png)
 
