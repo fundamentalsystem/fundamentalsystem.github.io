@@ -1,17 +1,17 @@
 ---
-title: "Fur Developers"
+title: "Für Developers"
 collection: teaching
-type: "Undergraduate course"
+type: "To all potential contributors"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+venue: "Beijing & Hong Kong"
+date: 2022-12-04
 location: "City, Country"
 ---
 
-![uas](../images/uas.png)
+
 
 This page is for developers who want to contribute to this project.
-
+![uas](../images/uas.png)
 Secondary development, also known as software maintenance, is an important part of the software development process. It involves making changes and improvements to an existing software system, in order to fix bugs, add new features, or improve performance.
 
 There are several reasons why software may need secondary development:
