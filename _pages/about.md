@@ -12,17 +12,27 @@ redirect_from:
 
 This is the home page of the Fundamental System.
 
-Fundamental System is a system dedicated to the 
+The Fundamental System is a system integrating the different modules necessary for the UAVs to carry out tasks, once implemented, the system would be able to facilitate end users to test their algorithms conveniently and migrate these solutions to the real-world actuators without much extra effort.
 
 The logo stands for the integration of various components into the system to finally solve the puzzle.
 
-The system contains different modules. Taking the fundamental simulator as an example The draft architecture is shown as follows:
+The system contains different modules adopting both ROS and ROS2 topics. ROS (Robot Operating System) and ROS2 are both open-source software frameworks for developing robotics applications. However, there are some key differences between the two:
 
-![uas](../images/arch.png)
+- ROS is based on a publish-subscribe communication model, while ROS2 uses a more flexible data-driven communication model.
+- ROS is designed to support a wide range of hardware architectures and operating systems, while ROS2 is specifically designed for distributed systems and cloud-based applications.
+- ROS has a large and active community of users and developers, with a wealth of available resources and support, while ROS2 is still relatively new and has a smaller community.
+- ROS uses a monolithic architecture with a centralized master node, while ROS2 uses a microservices architecture with distributed nodes.
+- ROS uses Python and C++ as its main programming languages, while ROS2 adds support for additional languages such as Java and Rust.
 
+Overall, while ROS and ROS2 have many similarities, ROS2 offers a number of improvements and enhancements over ROS, making it better suited for certain types of applications and scenarios.
 
+To make a trade-off between the abundance of ROS packages and the benefits of ROS2 such as higher robustness from distributed architecture, we adopt both ROS and ROS2 modules shown as follows:
 
+<img src="../images/WBS diagram1.png" alt="WBS" style="zoom:80%;" />
 
+As shown in the image, the 
+
+![framework](../images/framework.png)
 
 
 
