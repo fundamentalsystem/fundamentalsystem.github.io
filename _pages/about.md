@@ -30,23 +30,17 @@ To make a trade-off between the abundance of ROS packages and the benefits of RO
 
 <img src="../images/WBS diagram1.png" alt="WBS" style="zoom:80%;" />
 
-As shown in the image, the modules like SLAM, LTL planning, motion planning and the obstacle estimation will communicate via ROS1 topic, and the Task planning with behaviour tree will rely on the Nav2 of ROS2 to carry out the task. The Pixhawk commander will coordinate both ROS environments.
+As shown in the image, the modules like SLAM, LTL planning, motion planning, and obstacle estimation will communicate via ROS1 topic, and the Task planning with behavior tree will rely on the Nav2 of ROS2 to carry out the task. The Pixhawk commander will coordinate both ROS environments.
 
 Until now, we have proposed the current architecture for the whole system in the following graph:
 
 ![framework](../images/framework.png)
 
-As shown in the picture above, the human will specify the task 
+As shown in the picture above, the primal component contains a companion personal computer(CPC), QgroundControl(QGC), Pixhawk4(PX4) firmware, and Gazebo. The diagram of the whole system can be found in the figure above. CPC is the AI program that runs on the onboard computer of a UAV. It usually contains two main parts: perception and planning, which will be discussed in detail in the following sections. QGC serves as an interface for users to control UAVs. End-users can easily assign flight schedules and monitor the UAV status via QGC. PX4 runs the flight control and scheduling algorithms on-the-fly which should be of high reliability and be designed with caution. Gazebo is a physical engine to simulate the interaction between UAVs and the real world. It contains the physical model of the world and the dynamics of the vehicle. Even weather conditions like wind and the amount of sunshine can also be involved in the simulation. 
+
+> You can also visit the [fundamental simulator](http://fundamentalsystem.net/publications/) for more information
+
+## The draft version of the scheme is available [here](http://fundamentalsystem.net/files/schemeNov22.pdf).
 
 
-
-
-
-
-
-
-
-
-
-The draft version of the scheme is available [here](http://fundamentalsystem.net/files/schemeNov22.pdf).
 
