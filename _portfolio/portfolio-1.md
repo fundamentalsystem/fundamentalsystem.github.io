@@ -1,6 +1,6 @@
 ---
 title: "The Software Requirement Specification"
-excerpt: "This is the Software Requirement Specification(SRS) Document for the requirement Engineering <br/><img src='/images/SRS.png'>"
+excerpt: "This is the Software Requirement Specification(SRS) Document for the requirement Engineering <br/><img src='/images/srs.png'>"
 
 collection: portfolio
 ---
