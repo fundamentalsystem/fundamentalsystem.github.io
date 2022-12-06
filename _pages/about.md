@@ -30,11 +30,13 @@ To make a trade-off between the abundance of ROS packages and the benefits of RO
 
 <img src="../images/WBS diagram1.png" alt="WBS" style="zoom:80%;" />
 
-As shown in the image, the 
+As shown in the image, the modules like SLAM, LTL planning, motion planning and the obstacle estimation will communicate via ROS1 topic, and the Task planning with behaviour tree will rely on the Nav2 of ROS2 to carry out the task. The Pixhawk commander will coordinate both ROS environments.
+
+Until now, we have proposed the current architecture for the whole system in the following graph:
 
 ![framework](../images/framework.png)
 
-
+As shown in the picture above, the human will specify the task 
 
 
 
