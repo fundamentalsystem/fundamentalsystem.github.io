@@ -13,10 +13,10 @@ main:
     url: /portfolio/
         
   - title: "User Guide"
-    url: /cv/
+    url: /portfolio/
     
   - title: "Contact"
-    url: /cv/
+    url: /portfolio/
     
   - title: "News of UAS"
-    url: /markdown/
+    url: /portfolio/
