@@ -18,4 +18,4 @@ There are several reasons why SRS is important and useful in software engineerin
 
 Overall, SRS is a valuable tool for defining and documenting the requirements for a software system and is an essential part of the software development process.
 
-Therefore, we present the SRS draft [here](../files/srs.pdf) for further refinement and reference.
+Therefore, we present the SRS draft [here](../../files/srs.pdf) for further refinement and reference.
