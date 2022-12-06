@@ -1,6 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "The Software Requirement Specification"
+excerpt: "This is the Software Requirement Specification(SRS) Document for the requirement Engineering <br/><img src='/images/SRS.png'>"
+
 collection: portfolio
 ---
 
