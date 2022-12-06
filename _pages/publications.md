@@ -29,7 +29,13 @@ MDA has many advantages in the context of robotics, including:
 
 Overall, using MDA in the development of large-scale robotic software systems can provide many benefits, including improved scalability, modularity, reusability, maintainability, interoperability, and flexibility.
 
-The development of a robotic software system using Model-driven Architecture (MDA) typically involves the following steps:
+Therefore, we made an overall plan for the development:
+
+![gantt](../images/gantt.png)
+
+(The detailed pdf for higher resolution is available  [here](../files/Gantt06.pdf))
+
+As shown in the graph, the development of this using Model-driven Architecture (MDA) typically involves the following steps:
 
 1. Identify the requirements for the robotics software system and define the overall functionality and features that it will need to provide. This may include the type of robot that the software will be used for, the tasks that the robot will need to perform, and the operating environment in which the robot will be deployed.
 2. Create a high-level model of the robotics software system using a modeling language, such as the Unified Modeling Language (UML) or the Entity-Relationship (ER) model. This model should capture the main components of the system and the relationships between them. For example, the model may include classes for representing the robot, its sensors and actuators, and the algorithms and control logic that govern its behavior.
@@ -65,7 +71,7 @@ And the stage to define the data model for the robotics software system will inc
 
 After the data model(including PIM and PSM) are well-structures, we will :
 
-1. Install the chosen model-driven development tool, such as the Eclipse Modeling Framework (EMF) or the Model Driven Architecture Development Environment (MDA-DE). These tools typically support multiple programming languages, including C++, and provide the necessary tools and libraries for working with the high-level and data models and generating the code for the software system.
+1. Configure the chosen model-driven development tool, such as the Eclipse Modeling Framework (EMF) or the Model Driven Architecture Development Environment (MDA-DE). These tools typically support multiple programming languages, including C++, and provide the necessary tools and libraries for working with high-level data models and generating the code for the software system.
 2. Import the high-level and data models into the development tool. This will allow you to access and manipulate the models within the development environment.
 3. Configure the code generation settings for the development tool. This may involve specifying that the code will be generated in C++, the location where the generated code will be stored, and any custom options or settings that are specific to the chosen development tool.
 4. Generate the code for the robotics software system from the high-level and data models. The development tool will use the models to generate the necessary C++ code for the software system, including classes for representing the robot and its components, as well as methods for manipulating the data and controlling the robot.
